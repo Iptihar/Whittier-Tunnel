@@ -6,4 +6,5 @@ The purpose is to simulate the operation of the tunnel using semaphores and a sh
 need to compile using g++ in linux environment
 
 compile: g++ -fpermissive tunnel.cpp -lpthread -o tunnel
+
 run:     ./tunnel input.txt
